@@ -1,0 +1,35 @@
+section{
+    border: 2px solid red;
+}
+
+.estadio{
+    display: flex;
+    align-items: center; /*alinhamento do eixo trasversal*/
+    justify-content: center; /*alinhamento do eixo principal*/
+    gap: 2rem; /*espaçamento entre os elementos do display flex*/
+
+    margin-bottom: 2rem;
+}
+
+.estadio img{
+    width: 20rem;
+}
+
+.estadio p{
+    width: 30rem;
+    text-align: center;
+}
+
+.escudo{
+    display: flex;
+    align-items: center;
+}
+
+.escudo img{
+    width: 20rem;
+}
+
+.escudo p{
+    width: 30rem;
+    text-align: center;
+}
